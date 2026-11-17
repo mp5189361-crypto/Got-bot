@@ -1,0 +1,1 @@
+ <html> <head> <title>Mining App</title> </head> <body> <h1>My Mining App</h1> <div id="balance">Balance: 0</div> <button onclick="startMining()">Start Mining</button> <script> let balance = 0; function startMining() { balance += 1; document.getElementById('balance').innerText = 'Balance: ' + balance; } </script> </body> </html>
